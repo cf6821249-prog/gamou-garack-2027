@@ -3,9 +3,9 @@
 Site statique (HTML + CSS + un peu de JS), sans build. Animations 100 % CSS.
 
 ## Mettre à jour les vidéos
-Ouvrir `js/main.js`, section CONFIGURATION :
+Ouvrir `js/main.js`, section CONFIGURATION (les deux vidéos sont déjà renseignées) :
 - `accueil` : déjà renseignée (`sieSeoyPvvg`)
-- `ceremonie` : coller l'identifiant YouTube du QR « cérémonie officielle »
+- `ceremonie` : `LiOYMSNlSPU` (https://youtu.be/LiOYMSNlSPU)
   (pour `https://youtu.be/ABC123xyz`, l'identifiant est `ABC123xyz`).
 
 ## Publier : GitHub → Vercel

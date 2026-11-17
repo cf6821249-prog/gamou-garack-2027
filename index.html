@@ -4,136 +4,180 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Gamou de Garack 2027 — Invitation officielle</title>
-<meta name="description" content="Grande célébration du Gamou de Garack, samedi 2 janvier 2027. Foi – Spiritualité – Fraternité.">
-<meta name="theme-color" content="#0c3b2c">
+<meta name="description" content="Grande célébration du Gamou de Garack, samedi 2 janvier 2027. Foi. Spiritualité. Fraternité.">
+<meta name="theme-color" content="#06180f">
 <meta property="og:title" content="Gamou de Garack 2027">
 <meta property="og:description" content="Invitation officielle · Samedi 2 janvier 2027 · Garack">
 <meta property="og:image" content="assets/mosque.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="nav">
-  <a class="brand" href="#top"><i class="dot"></i><span data-ar="كامو كرك 2027">Gamou Garack 2027</span></a>
-  <nav>
-    <a href="#countdown" data-ar="العدّ التنازلي">Compte à rebours</a>
-    <a href="#invitation" data-ar="الدعوة">Invitation</a>
-    <a href="#programme" data-ar="البرنامج">Programme</a>
-    <a href="#videos" data-ar="الفيديوهات">Vidéos</a>
-    <a href="#contact" data-ar="اتصال">Contact</a>
-  </nav>
-  <button id="lang" class="lang" aria-label="Langue"><span>FR</span><span>عربي</span></button>
+<div class="bar" id="bar"></div>
+
+<!-- NAV LOCAL (façon Apple) -->
+<header class="lnav">
+  <div class="lnav-in">
+    <a class="lt" href="#top" data-ar="كامو كرك 2027">Gamou Garack 2027</a>
+    <nav>
+      <a href="#highlights" data-ar="أبرز المحطات">Temps forts</a>
+      <a href="#invitation" data-ar="الدعوة">Invitation</a>
+      <a href="#programme" data-ar="البرنامج">Programme</a>
+      <a href="#videos" data-ar="الفيديوهات">Vidéos</a>
+      <a href="#faq" data-ar="أسئلة">Questions</a>
+    </nav>
+    <div class="lr">
+      <button id="lang" class="lang" aria-label="Langue"><span>FR</span><span>عربي</span></button>
+      <a class="pill" href="https://wa.me/22233972432" target="_blank" rel="noopener" data-ar="تواصل">Nous écrire</a>
+    </div>
+  </div>
 </header>
 
-<main id="top">
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="aurora"><i></i><i></i><i></i></div>
-  <div class="sky" id="sky"></div>
-  <div class="parts" id="parts"></div>
-  <svg class="rub" viewBox="0 0 100 100" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width=".4"><rect x="20" y="20" width="60" height="60"/><rect x="20" y="20" width="60" height="60" transform="rotate(45 50 50)"/><circle cx="50" cy="50" r="38"/><circle cx="50" cy="50" r="30"/></g></svg>
-  <div class="hero-in">
-    <p class="kick rv" data-ar="دعوة رسمية">Invitation officielle</p>
-    <h1 id="title" aria-label="Gamou de Garack"></h1>
-    <p class="year shine">2027</p>
-    <p class="tagline rv" data-ar="الإيمان – الروحانية – الأخوّة">Foi – Spiritualité – Fraternité</p>
-    <div class="datepill rv"><b data-ar="السبت 02 يناير 2027 · الساعة 17:00">Samedi 02 janvier 2027 · 17 h</b></div>
-    <a class="cta rv" href="#invitation" data-ar="اكتشفوا الدعوة">Découvrir l’invitation</a>
+<main>
+<!-- HERO ÉPINGLÉ -->
+<section class="hero" id="top">
+  <div class="pin">
+    <div class="sky" id="sky"></div>
+    <div class="htitle">
+      <p class="eyebrow" data-ar="دعوة رسمية">Invitation officielle</p>
+      <h1 id="title" aria-label="Gamou de Garack"></h1>
+      <p class="h2s"><span class="gx">2027</span> · <span data-ar="الإيمان. الروحانية. الأخوّة.">Foi. Spiritualité. Fraternité.</span></p>
+    </div>
+    <div class="frame" id="frame"><div class="img"></div><div class="shade"></div></div>
+    <div class="hover">
+      <p class="big" data-ar="السبت 2 يناير 2027.">Samedi 2 janvier 2027.</p>
+      <p class="sm" data-ar="كرك — بلدية روصو، ولاية الترارزة · المراسم الرسمية ابتداءً من الساعة 17:00">Garack — Commune de Rosso, Région de Trarza · Cérémonie officielle dès 17 h</p>
+      <a class="btn" href="#highlights" data-ar="اكتشفوا الحدث">Découvrir l’événement</a>
+    </div>
+    <div class="cue"><i></i></div>
   </div>
-  <a class="scroll" href="#countdown" aria-label="Défiler"><i></i></a>
 </section>
 
-<div class="marq" aria-hidden="true"><div class="track">
-  <span>Foi</span><em>✦</em><span>Spiritualité</span><em>✦</em><span>Fraternité</span><em>✦</em><span>الإيمان</span><em>✦</em><span>الروحانية</span><em>✦</em><span>الأخوّة</span><em>✦</em>
-  <span>Foi</span><em>✦</em><span>Spiritualité</span><em>✦</em><span>Fraternité</span><em>✦</em><span>الإيمان</span><em>✦</em><span>الروحانية</span><em>✦</em><span>الأخوّة</span><em>✦</em>
-</div></div>
-
-<!-- COUNTDOWN -->
-<section id="countdown" class="sec">
-  <h2 class="h rv" data-ar="الأيام المتبقية للحدث">Plus que quelques instants</h2>
-  <div class="cd rv" id="cd">
-    <div><b id="d">00</b><span data-ar="يوم">Jours</span></div>
-    <div><b id="h">00</b><span data-ar="ساعة">Heures</span></div>
-    <div><b id="m">00</b><span data-ar="دقيقة">Minutes</span></div>
-    <div><b id="s">00</b><span data-ar="ثانية">Secondes</span></div>
+<!-- TEMPS FORTS -->
+<section class="hl dark" id="highlights">
+  <div class="wrap head">
+    <h2 class="rv" data-ar="أبرز المحطات.">Les temps forts.</h2>
+    <div class="chips rv" id="chips">
+      <button class="on" data-ar="الموعد">Date</button><button data-ar="المراسم">Cérémonie</button><button data-ar="السهرة">Soirée</button><button data-ar="الأصوات">Voix</button><button data-ar="الموضوع">Thème</button><button data-ar="الفيديو">Vidéos</button>
+    </div>
   </div>
-  <p class="sub rv" data-ar="حتى بدء المراسم الرسمية — السبت 02 يناير 2027، الساعة 17:00">avant la cérémonie officielle — samedi 02 janvier 2027 à 17 h</p>
+  <div class="car" id="car">
+    <article class="card c1"><div class="num">02</div><h3><b data-ar="السبت 2 يناير 2027.">Samedi 2 janvier 2027.</b> <span data-ar="احتفال كبير في كرك.">Une grande célébration à Garack.</span></h3></article>
+    <article class="card c2"><div class="num">17h</div><h3><b data-ar="المراسم الرسمية.">Cérémonie officielle.</b> <span data-ar="كلمات الترحيب والوفود وبلدية روصو والنائب ووالي الترارزة، ابتداءً من الساعة 17:00.">Mots de bienvenue, allocutions des délégations, de la mairie de Rosso, du député et du wali du Trarza, dès 17 h.</span></h3></article>
+    <article class="card c3"><div class="num">00h</div><h3><b data-ar="السهرة الدينية.">Soirée religieuse.</b> <span data-ar="تلاوة ودروس ومواعظ وأدعية حتى الفجر.">Récitation, enseignements, exhortations et prières jusqu’à l’aube.</span></h3></article>
+    <article class="card c4"><div class="num">✦</div><h3><b data-ar="أصوات ملهمة.">Des voix inspirantes.</b> <span data-ar="الشيخ خادم كبى، الشيخ مصطفى سيك (طوبى TV) والشيخ فالو تين.">Serigne Khadim Kébé, Serigne Moustapha Seck (Touba TV) et Serigne Fallou Tine.</span></h3></article>
+    <article class="card c5"><div class="num">❝</div><h3><b data-ar="موضوع قوي.">Un thème fort.</b> <span data-ar="الروحانية والمواطنة على ضوء تعاليم الشيخ أحمدو بمبا، في خدمة الوحدة الوطنية والاستقرار والتنمية.">Spiritualité et citoyenneté à la lumière des enseignements de Cheikh Ahmedou Bamba, au service de l’unité nationale, de la stabilité et du développement.</span></h3></article>
+    <article class="card c6"><div class="num">▶</div><h3><b data-ar="استرجعوا النسخة السابقة.">Revivez l’édition précédente.</b> <span data-ar="فيلمان: الحفل الرسمي والاستقبال الشعبي.">Deux films : la cérémonie officielle et l’accueil populaire.</span></h3><a class="more" href="#videos" data-ar="شاهدوا ›">Regarder ›</a></article>
+  </div>
 </section>
 
 <!-- INVITATION -->
-<section id="invitation" class="sec inv">
-  <div class="letter rv">
-    <svg class="frame" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><rect x="1" y="1" width="98" height="98" rx="2" pathLength="1"/></svg>
-    <div class="medal"><img src="assets/portrait.png" alt="Portrait" loading="lazy"></div>
-    <h2 class="h" data-ar="دعوة إلى كامو كرك">Invitation au Gamou de Garack</h2>
-    <p data-ar="تحت الرعاية السامية لرئيس القرية وأعيان كرك، تتشرف لجنة التنظيم بدعوتكم إلى الاحتفال الكبير بكامو كرك، الذي سيقام يوم السبت 02 يناير 2027.">Sous le haut patronage du Chef du village et des notables de Garack, le Comité d’Organisation a l’honneur de vous convier à la grande célébration du Gamou de Garack, qui se tiendra le <b>samedi 02 janvier 2027</b>.</p>
-    <p data-ar="سيكون هذا اللقاء الروحي لحظةً من الخشوع والدعاء والتآخي، في ظل تعاليم الإسلام وقيم الطريقة المريدية.">Ce rendez-vous spirituel sera un moment de dévotion, de prières et de communion fraternelle, dans le respect des enseignements de l’Islam et des valeurs de la confrérie mouride.</p>
-    <p class="theme" data-ar="الروحانية والمواطنة: تعاليم الشيخ أحمدو بمبا في خدمة الوحدة الوطنية والسلام والاستقرار والتنمية."><b>Thème :</b> Spiritualité et citoyenneté : les enseignements de Cheikh Ahmadou Bamba au service de l’unité nationale, de la paix, de la stabilité et du développement.</p>
+<section class="inv light" id="invitation">
+  <div class="wrap narrow">
+    <p class="eyebrow dk rv" data-ar="الدعوة">L’invitation</p>
+    <h2 class="rv" data-ar="دعوة إلى اللقاء.">Une invitation à se rassembler.</h2>
+    <div class="medal rv"><img src="assets/portrait.png" alt="Portrait" loading="lazy"></div>
+    <p class="words" id="w1" data-ar="تحت الرعاية السامية لرئيس القرية وأعيان كرك، تتشرف لجنة التنظيم بدعوتكم إلى الاحتفال الكبير بكامو كرك، الذي سيقام يوم السبت 02 يناير 2027. سيكون هذا اللقاء الروحي لحظةً من الخشوع والدعاء والتآخي، في ظل تعاليم الإسلام وقيم الطريقة المريدية.">Sous le haut patronage du Chef du village et des notables de Garack, le Comité d’Organisation a l’honneur de vous convier à la grande célébration du Gamou de Garack, qui se tiendra le samedi 02 janvier 2027. Ce rendez-vous spirituel sera un moment de dévotion, de prières et de communion fraternelle, dans le respect des enseignements de l’Islam et des valeurs de la confrérie mouride.</p>
+  </div>
+</section>
+
+<!-- COMPTE À REBOURS -->
+<section class="cdw dark" id="countdown">
+  <div class="wrap">
+    <h2 class="rv" data-ar="بعد قليل.">Plus que <span class="gx">quelques instants</span>.</h2>
+    <div class="cd rv" id="cd">
+      <div><b id="d">00</b><span data-ar="يوم">jours</span></div><div><b id="h">00</b><span data-ar="ساعة">heures</span></div><div><b id="m">00</b><span data-ar="دقيقة">minutes</span></div><div><b id="s">00</b><span data-ar="ثانية">secondes</span></div>
+    </div>
+    <p class="sub rv" data-ar="حتى بدء المراسم الرسمية، السبت 02 يناير 2027 الساعة 17:00.">avant la cérémonie officielle, le samedi 02 janvier 2027 à 17 h.</p>
   </div>
 </section>
 
 <!-- PROGRAMME -->
-<section id="programme" class="sec prog">
-  <h2 class="h rv" data-ar="البرنامج المؤقت">Programme provisoire</h2>
-  <p class="sub rv" data-ar="السبت 2 يناير 2027 · كرك — بلدية روصو">Samedi 2 janvier 2027 · Garack — Commune de Rosso</p>
-  <div class="cols">
-    <div class="tl rv">
-      <h3 data-ar="المراسم الرسمية">Cérémonie officielle</h3>
-      <ol>
-        <li><time>16h30 – 17h30</time><p data-ar="استقبال وتجهيز الضيوف والجمهور.">Accueil et installation des invités et du public.</p></li>
-        <li><time>17h10 – 17h20</time><p data-ar="افتتاح المراسم الرسمية بتلاوة القرآن الكريم.">Ouverture de la cérémonie officielle par la lecture du Saint Coran.</p></li>
-        <li><time>17h20 – 17h30</time><p data-ar="كلمات ترحيب من لجنة التنظيم ورئيس القرية.">Mots de bienvenue du comité d’organisation et du chef du village.</p></li>
-        <li><time>17h30 – 18h30</time><p data-ar="كلمات السلطات والوفود الرفيعة.">Allocutions des autorités et des hautes délégations.</p></li>
-        <li><time>18h30 – 18h40</time><p data-ar="كلمة ختامية وإنهاء المراسم الرسمية.">Synthèse et clôture de la cérémonie officielle.</p></li>
-        <li><time>18h40</time><p data-ar="نهاية المراسم.">Fin de la cérémonie</p></li>
-      </ol>
-    </div>
-    <div class="tl rv">
-      <h3 data-ar="السهرة الدينية">Soirée religieuse</h3>
-      <ol>
-        <li><time>00 h 00 – 00 h 30</time><p data-ar="افتتاح من طرف الداهرات في كرك.">Ouverture par les Dahiras de Garack.</p></li>
-        <li><time>00 h 30 – 01 h 00</time><p data-ar="فقرات المنشدين الفرديين من كرك.">Prestations des chanteurs individuels de Garack.</p></li>
-        <li><time>01 h 00 – 01 h 10</time><p data-ar="دعاء الافتتاح وتلاوة آيات قرآنية على لسان الإمام.">Prière d'ouverture et récitation de versets coraniques par l'imam</p></li>
-        <li><time>01 h 10 – 01 h 20</time><p data-ar="كلمة ترحيب وشكر من رئيس لجنة التنظيم.">Mot de bienvenue et de remerciements du président du comité d’organisation</p></li>
-        <li><time>01 h 20 – 01 h 30</time><p data-ar="كلمة رئيس القرية.">Message du chef du village.</p></li>
-        <li><time>01 h 30 – 01 h 50</time><p data-ar="فقرة التيجانيين.">Prestation des Tidjanes.</p></li>
-        <li><time>01 h 50 – 03 h 20</time><p data-ar="فقرة الثنائي الشيخ مصطفى سيك (قناة طوبى TV) والشيخ فالو تين (ساعة ونصف).">Prestation du duo Serigne Moustapha Seck (Touba TV) et Serigne Fallou Tine (1 h 30).</p></li>
-        <li><time>03 h 20 – <span data-ar="الفجر">à l’aube</span></time><p data-ar="فقرة بإشراف الشيخ خادم كبى وفريقه حتى الفجر.">Animation assurée par Serigne Khadim Kébé et son équipe jusqu’à l’aube.</p></li>
-        <li><time data-ar="عند الفجر">À l’aube</time><p data-ar="ختام الكامو.">Clôture du Gamou.</p></li>
-      </ol>
+<section class="prog light" id="programme">
+  <div class="wrap">
+    <p class="eyebrow dk rv" data-ar="البرنامج المؤقت">Programme provisoire</p>
+    <h2 class="rv" data-ar="يوم. وليلة.">Une journée. <span class="gx2">Une nuit.</span></h2>
+    <p class="lead rv" data-ar="السبت 2 يناير 2027 · كرك — بلدية روصو، ولاية الترارزة">Samedi 2 janvier 2027 · Garack — Commune de Rosso, Région de Trarza</p>
+    <div class="seg rv" id="seg"><button class="on" data-ar="المراسم الرسمية">Cérémonie officielle</button><button data-ar="السهرة الدينية">Soirée religieuse</button></div>
+    <div class="panel on" id="p0"><div class="th"><span data-ar="الموعد">Horaire</span><span data-ar="السير">Déroulement</span><span data-ar="المتدخلون">Intervenants</span></div><ol>
+      <li><time>17h15 – 17h40</time><p data-ar="استقبال وتجهيز الضيوف والجمهور.">Accueil et installation des invités et du public.</p><em class="who" data-ar="لجنة الاستقبال">Commission accueil</em></li>
+      <li><time>17h40 – 17h43</time><p data-ar="افتتاح المراسم الرسمية بتلاوة القرآن الكريم.">Ouverture de la cérémonie officielle par la lecture du Saint Coran.</p><em class="who" data-ar="إمام راتب كرك (الحاج الشيخ إبراهيم فال)">Imam ratib de Garack (El Hadj Cheikh Brahim Fall)</em></li>
+      <li><time>17h43 – 17h52</time><p data-ar="كلمة ترحيب: لجنة التنظيم">Mot de bienvenue : comité d’organisation</p><em class="who" data-ar="الرئيس مدين بونا فال">Président Madine Bouna Fall</em></li>
+      <li><time>17h52 – 17h57</time><p data-ar="كلمة ترحيب: رئيس القرية">Mot de bienvenue : chef du village</p><em class="who" data-ar="الشيخ ألين مام فال">Serigne Aline Mame Fall</em></li>
+      <li><time>17h57 – 18h17</time><p data-ar="كلمات وفود أولاد الشريف بوبزول">Allocutions des délégations de Oulad Cherif Boubezoul</p><em class="who" data-ar="4 ممثلين معيّنين">4 représentants désignés</em></li>
+      <li><time>18h17 – 18h20</time><p data-ar="قراءة عرض حول تاريخ كرك">Lecture de l’exposé sur l’histoire de Garack</p><em class="who" data-ar="يُحدَّد لاحقًا">À désigner</em></li>
+      <li><time>18h20 – 18h30</time><p data-ar="كلمة وفدَي تيغماتين وتونغين">Allocution des délégations de Tigmatine et Tounguène</p><em class="who" data-ar="د. الشيخ أحمدو بمبا ساير والحاج لمين فال">Dr Cheikh Ahmedou Bamba Saer et El Hadj Lamine Fall</em></li>
+      <li><time>18h30 – 18h35</time><p data-ar="كلمة بلدية روصو">Allocution de la mairie de Rosso</p><em class="who" data-ar="السيد عمدة روصو">Monsieur le Maire de Rosso</em></li>
+      <li><time>18h35 – 18h40</time><p data-ar="كلمة نائب مقاطعة روصو">Allocution du député de la Moughataa de Rosso</p><em class="who" data-ar="النائب المحترم أمت روخايا">L’honorable Amet Rokhaya</em></li>
+      <li><time>18h40 – 18h50</time><p data-ar="كلمة والي الترارزة">Allocution du wali du Trarza</p><em class="who" data-ar="الوالي">Le Wali</em></li>
+      <li><time>18h50 – 18h55</time><p data-ar="كلمة ختامية وإنهاء المراسم">Synthèse et clôture de la cérémonie</p><em class="who" data-ar="يُحدَّد لاحقًا">À désigner</em></li>
+    </ol></div>
+    <div class="panel" id="p1"><ol>
+      <li><time>00 h 00 – 00 h 30</time><p data-ar="افتتاح من طرف الداهرات في كرك.">Ouverture par les dahiras de Garack.</p></li>
+      <li><time>00 h 30 – 01 h 00</time><p data-ar="فقرات المنشدين الفرديين من كرك.">Prestation des chanteurs individuels de Garack.</p></li>
+      <li><time>01 h 00 – 01 h 10</time><p data-ar="كلمة ترحيب من الإمام الراتب.">Mot de bienvenue de l’Imam Ratib</p></li>
+      <li><time>01 h 10 – 01 h 20</time><p data-ar="كلمة ترحيب وشكر من رئيس لجنة التنظيم.">Mot de bienvenue et de remerciements du président du comité d’organisation</p></li>
+      <li><time>01 h 20 – 01 h 30</time><p data-ar="كلمة رئيس قرية كرك.">Message du chef de village de Garack</p></li>
+      <li><time>01 h 30 – 01 h 50</time><p data-ar="فقرة التيجانيين.">Prestation des Tidjanes</p></li>
+      <li><time>01 h 50 – 03 h 20</time><p data-ar="فقرة الثنائي الشيخ مصطفى سيك (قناة طوبى TV) والشيخ فالو تين.">Prestation du duo Serigne Moustapha Seck (Touba TV) et Serigne Fallou Tine</p></li>
+      <li><time data-ar="03:20 – الفجر">03 h 20 – à l’aube</time><p data-ar="فقرة بإشراف الشيخ خادم كبى وفريقه حتى الفجر.">Animation assurée par Serigne Khadim Kébé et son équipe jusqu’à l’aube.</p></li>
+      <li><time data-ar="عند الفجر">À l’aube</time><p data-ar="صلاة الفجر وختام الكامو.">Prière et clôture du Gamou.</p></li>
+    </ol></div>
+  </div>
+</section>
+
+<!-- CHIFFRES -->
+<section class="stats dark">
+  <div class="wrap">
+    <h2 class="rv" data-ar="ثلاث لحظات. ليلة واحدة.">Trois moments. <span class="gx">Une seule nuit.</span></h2>
+    <div class="st3">
+      <div class="rv"><b>17<small>h</small></b><span data-ar="المراسم الرسمية">Cérémonie officielle</span></div>
+      <div class="rv"><b>00<small>h</small></b><span data-ar="السهرة الدينية">Soirée religieuse</span></div>
+      <div class="rv"><b data-ar="الفجر">Aube</b><span data-ar="ختام الكامو">Clôture du Gamou</span></div>
     </div>
   </div>
 </section>
 
-<!-- VIDEOS -->
-<section id="videos" class="sec vids">
-  <h2 class="h rv" data-ar="استرجعوا ذكريات النسخة السابقة">Revivez l’édition précédente</h2>
-  <div class="vgrid">
-    <article class="vcard rv" data-video="ceremonie">
-      <div class="vthumb"><button class="play" aria-label="Lire"><i></i></button></div>
-      <h3 data-ar="الحفل الرسمي للنسخة السابقة">La cérémonie officielle</h3>
-    </article>
-    <article class="vcard rv" data-video="accueil">
-      <div class="vthumb"><button class="play" aria-label="Lire"><i></i></button></div>
-      <h3 data-ar="أجواء الاستقبال الشعبي في النسخة السابقة">L’accueil populaire</h3>
-    </article>
+<!-- VIDÉOS -->
+<section class="vids light" id="videos">
+  <div class="wrap">
+    <p class="eyebrow dk rv" data-ar="الفيديوهات">Films</p>
+    <h2 class="rv" data-ar="استرجعوا ذكريات النسخة السابقة.">Revivez l’édition précédente.</h2>
+    <div class="vgrid">
+      <article class="vcard rv" data-video="ceremonie"><div class="vthumb"><button class="play" aria-label="Lire"><i></i></button></div><h3 data-ar="الحفل الرسمي للنسخة السابقة">La cérémonie officielle</h3></article>
+      <article class="vcard rv" data-video="accueil"><div class="vthumb"><button class="play" aria-label="Lire"><i></i></button></div><h3 data-ar="أجواء الاستقبال الشعبي في النسخة السابقة">L’accueil populaire</h3></article>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq dark" id="faq">
+  <div class="wrap narrow">
+    <h2 class="rv" data-ar="أسئلة؟ أجوبة.">Questions ? Réponses.</h2>
+    <div class="acc rv">
+      <details open><summary data-ar="متى يقام كامو كرك 2027؟">Quand a lieu le Gamou de Garack 2027 ?</summary><p data-ar="يوم السبت 2 يناير 2027. المراسم الرسمية ابتداءً من الساعة 17:00؛ وحسب البرنامج يبدأ استقبال الضيوف عند 17:15 وتُفتتح المراسم عند 17:40.">Le samedi 2 janvier 2027. La cérémonie officielle est annoncée à partir de 17 h ; selon le programme, l’accueil des invités commence à 17 h 15 et l’ouverture a lieu à 17 h 40.</p></details>
+      <details><summary data-ar="أين يقام؟">Où se déroule l’événement ?</summary><p data-ar="في كرك — بلدية روصو، ولاية الترارزة.">À Garack — Commune de Rosso, Région de Trarza.</p></details>
+      <details><summary data-ar="من ينشّط السهرة؟">Qui anime la soirée ?</summary><p data-ar="الشيخ خادم كبى مُنشّط السهرة، بمشاركة الثنائي الشيخ مصطفى سيك (قناة طوبى TV) والشيخ فالو تين.">Serigne Khadim Kébé est l’animateur de la soirée, avec la participation du duo Serigne Moustapha Seck (Touba TV) et Serigne Fallou Tine.</p></details>
+      <details><summary data-ar="ما موضوع هذه النسخة؟">Quel est le thème de cette édition ?</summary><p data-ar="الروحانية والمواطنة على ضوء تعاليم الشيخ أحمدو بمبا، في خدمة الوحدة الوطنية والاستقرار والتنمية.">Spiritualité et citoyenneté à la lumière des enseignements de Cheikh Ahmedou Bamba, au service de l’unité nationale, de la stabilité et du développement.</p></details>
+      <details><summary data-ar="كيف أتواصل مع لجنة التنظيم؟">Comment contacter le comité d’organisation ?</summary><p data-ar="عبر واتساب على الرقم 33 97 24 32.">Par WhatsApp au 33 97 24 32.</p></details>
+    </div>
   </div>
 </section>
 
 <!-- CONTACT -->
-<section id="contact" class="sec contact">
-  <h2 class="h rv" data-ar="للتواصل">Une question ? Écrivez-nous</h2>
-  <a class="wa rv" id="wa" href="https://wa.me/22233972432" target="_blank" rel="noopener"><i></i><b>33 97 24 32</b><span>WhatsApp</span></a>
-  <p class="sub rv" data-ar="لجنة التنظيم — كرك">Comité d’organisation — Garack</p>
-  <div class="spons rv"><img src="assets/masrvi.png" alt="Masrvi" loading="lazy"><img src="assets/bankily.png" alt="Bankily" loading="lazy"></div>
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2 class="rv" data-ar="نتشرف بحضوركم.">Nous serions honorés de vous accueillir.</h2>
+    <a class="wa rv" href="https://wa.me/22233972432" target="_blank" rel="noopener"><span>WhatsApp</span><b>33 97 24 32</b></a>
+    <div class="spons rv"><img src="assets/masrvi.png" alt="Masrvi" loading="lazy"><img src="assets/bankily.png" alt="Bankily" loading="lazy"></div>
+  </div>
 </section>
 </main>
 
 <footer>
-  <p data-ar="« اللهم بارك هذا اللقاء واجعل هذا الكامو مصدر سلام ووحدة وبركات للجماعة كلها »">« Qu’Allah bénisse cette rencontre et fasse de ce Gamou une source de paix, d’unité et de bénédictions pour toute la communauté. »</p>
-  <small>Gamou de Garack 2027 · Comité d’Organisation</small>
+  <p class="quote" data-ar="« اللهم بارك هذا اللقاء واجعل هذا الكامو مصدر سلام ووحدة وبركات للجماعة كلها »">« Qu’Allah bénisse cette rencontre et fasse de ce Gamou une source de paix, d’unité et de bénédictions pour toute la communauté. »</p>
+  <small>Gamou de Garack 2027 · Comité d’Organisation · Garack, Commune de Rosso</small>
 </footer>
 <script src="js/main.js"></script>
 </body>
