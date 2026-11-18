@@ -176,3 +176,23 @@ html[dir=rtl] .mapbtns a{font-family:var(--ar);font-size:1.1rem;letter-spacing:0
 .coords{margin-top:1.2rem;color:var(--sage);letter-spacing:.16em;font-size:.8rem;direction:ltr}
 @keyframes mapglow{50%{box-shadow:0 30px 80px rgba(0,0,0,.55),0 0 0 7px rgba(212,175,95,.07),0 0 60px rgba(212,175,95,.25)}}
 @media(max-width:640px){.mapcard{aspect-ratio:4/5}}
+
+@media(max-width:640px){
+  .pinbadge{top:.7rem;left:.7rem;font-size:.78rem;padding:.35rem .8rem .35rem .65rem}
+  html[dir=rtl] .pinbadge{left:auto;right:.7rem}
+  .seg{top:auto;bottom:.7rem;right:.7rem}
+  html[dir=rtl] .seg{right:auto;left:.7rem}
+  .seg button{padding:.4rem .9rem;font-size:.72rem}
+}
+
+/* carte : barre d'outils sans chevauchement */
+.mapbar{position:absolute;z-index:3;top:.8rem;left:.8rem;right:.8rem;display:flex;flex-wrap:wrap;gap:.5rem;justify-content:space-between;align-items:flex-start;pointer-events:none}
+.mapbar .pinbadge,.mapbar .seg{position:static;pointer-events:auto}
+.mapbar .pinbadge{pointer-events:none}
+@media(max-width:640px){
+  .mapbar{top:.55rem;left:.55rem;right:.55rem}
+  .mapbar .pinbadge{padding:.28rem .7rem .28rem .6rem;font-size:.68rem;gap:.45rem}
+  .mapbar .pinbadge i{width:.6rem;height:.6rem}
+  .mapbar .seg button{padding:.3rem .7rem;font-size:.66rem}
+  html[dir=rtl] .mapbar .seg button,html[dir=rtl] .mapbar .pinbadge{font-size:.85rem}
+}
