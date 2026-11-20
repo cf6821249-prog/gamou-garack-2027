@@ -196,3 +196,8 @@ html[dir=rtl] .mapbtns a{font-family:var(--ar);font-size:1.1rem;letter-spacing:0
   .mapbar .seg button{padding:.3rem .7rem;font-size:.66rem}
   html[dir=rtl] .mapbar .seg button,html[dir=rtl] .mapbar .pinbadge{font-size:.85rem}
 }
+
+/* deux numéros WhatsApp */
+.wabox{display:flex;gap:1rem 1.4rem;justify-content:center;flex-wrap:wrap;margin-top:1.6rem}
+.wabox .wa{margin-top:0;font-size:1.25rem;padding:1rem 1.8rem;gap:.8rem}
+@media(max-width:520px){.wabox .wa{width:100%;justify-content:center}}
