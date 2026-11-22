@@ -12,3 +12,6 @@ Dans `js/main.js`, section CONFIGURATION : les deux vidéos sont déjà renseign
 2. vercel.com → *Add New… → Project* → importer le dépôt. Framework Preset : **Other**,
    Build Command et Output Directory vides → **Deploy**.
 3. Chaque modification sur GitHub redéploie automatiquement.
+
+## Icône de l’onglet (favicon)
+Fichiers : `favicon.ico`, `assets/icons/*`, `site.webmanifest` (déjà reliés dans `index.html`).
